@@ -45,4 +45,27 @@ a {
 
 ul {
   list-style-type: none;
+  padding: 0;
+}
+
+
+/* LAYOUT */
+.header {
+  display: flex;
+}
+.left-col, .right-col {
+  flex:1;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  gap: 16px;
+}
+
+.right-col {
+  justify-content: flex-end;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
 }
